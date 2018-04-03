@@ -5,7 +5,7 @@ const dataStorage = new Storage;
 // Get storage location data
 const data = dataStorage.getLocationData();
 
-console.log(data);
+// console.log(data);
 
 // initail weather object
 
@@ -37,7 +37,7 @@ document.getElementById('w-change-btn').addEventListener('click',(e) => {
 function getWeather(){
   weather.getWeather().then(results => {
     ui.paint(results);
-    console.log(results);
+    // console.log(results);
   }).catch();
 }
 
