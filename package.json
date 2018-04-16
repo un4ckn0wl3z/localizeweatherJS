@@ -1,0 +1,14 @@
+{
+  "name": "localizeweatherJS",
+  "version": "1.0.0",
+  "description": "Songkran Weeken Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Un4",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
